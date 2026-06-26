@@ -1,50 +1,50 @@
-# 🚀 Smart Resume Analyzer
+# 🌐 Smart Resume Analyzer
 
-A **Python-based Smart Resume Analyzer** built with **Streamlit** that automates resume screening by evaluating resumes based on ATS compatibility, resume quality, and overall candidate performance. This project helps recruiters and hiring teams shortlist candidates efficiently.
+🌐 Live Demo
+
+👉 https://smart-resume-analyzer-zz6gjcpceqwvwam3qyhmtk.streamlit.app/
+
+A **Python-based Smart Resume Analyzer** built with Streamlit that evaluates resumes using ATS scoring, resume quality analysis, and candidate ranking. This project helps recruiters and hiring teams screen and rank candidates more efficiently.
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-* 📄 Upload PDF resumes
-* 🎯 ATS Score Calculation based on required skills
-* 📊 Resume Quality Analysis
-* ⭐ Overall Candidate Score
-* 📈 Candidate Ranking
-* 🔍 Search & Filter Candidates
-* ⚖️ Compare Multiple Candidates
-* 📋 Shortlist Candidates
-* 📁 CSV Report Generation
+- Upload PDF resumes
+- ATS Score calculation based on required skills
+- Resume Quality Analysis
+- Overall Candidate Score
+- Search & Filter candidates
+- Compare multiple candidates
+- Shortlist candidates
+- CSV Report Generation
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python
-* Streamlit
-* Pandas
-* NumPy
-* CSV
-* File Handling
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- CSV
+- File Handling
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-```text
 Smart-Resume-Analyzer/
-│
-├── modules/
-├── pages/
-├── reports/
-├── app.py
-├── requirements.txt
-└── skills.csv
-```
+- modules/
+- pages/
+  - reports/
+  - app.py
+  - requirements.txt
+  - skills.csv
 
 ---
 
-## ▶️ Installation
+## Installation
 
 1. Clone the repository
 
@@ -58,7 +58,7 @@ git clone https://github.com/harsha-teja1/Smart-Resume-Analyzer.git
 cd Smart-Resume-Analyzer
 ```
 
-3. Install the required packages
+3. Install required packages
 
 ```bash
 pip install -r requirements.txt
@@ -72,35 +72,28 @@ streamlit run app.py
 
 ---
 
-## 💡 How It Works
+## How It Works
 
 1. Select the required skills.
 2. Upload a candidate's resume.
 3. The application extracts the resume content.
 4. ATS Score is calculated based on matching skills.
 5. Resume Quality is evaluated.
-6. Overall Score is generated.
-7. Candidates can be ranked, compared, and shortlisted.
+6. Candidates are ranked and can be shortlisted or exported.
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-* AI-powered resume suggestions
-* Resume keyword highlighting
-* Job description matching
-* Admin dashboard
-* Database integration
-* Cloud deployment
+- AI-powered resume suggestions
+- Resume keyword highlighting
+- Job description matching
+- Admin dashboard
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Harsha Teja**
 
 GitHub: https://github.com/harsha-teja1
-
----
-
-⭐ If you found this project useful, consider giving it a star!
